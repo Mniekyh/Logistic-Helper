@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "\\\\192.168.5.4\\Web\\PI2023\\LogisticHelper\\LogisticHelper.csproj": {}
+    "N:\\Programowanie\\Inzynierka\\PI2023\\mniekyh.github.io\\LogisticHelper\\LogisticHelper.csproj": {}
   },
   "projects": {
-    "\\\\192.168.5.4\\Web\\PI2023\\LogisticHelper\\LogisticHelper.csproj": {
+    "N:\\Programowanie\\Inzynierka\\PI2023\\mniekyh.github.io\\LogisticHelper\\LogisticHelper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\192.168.5.4\\Web\\PI2023\\LogisticHelper\\LogisticHelper.csproj",
+        "projectUniqueName": "N:\\Programowanie\\Inzynierka\\PI2023\\mniekyh.github.io\\LogisticHelper\\LogisticHelper.csproj",
         "projectName": "LogisticHelper",
-        "projectPath": "\\\\192.168.5.4\\Web\\PI2023\\LogisticHelper\\LogisticHelper.csproj",
+        "projectPath": "N:\\Programowanie\\Inzynierka\\PI2023\\mniekyh.github.io\\LogisticHelper\\LogisticHelper.csproj",
         "packagesPath": "C:\\Users\\MK\\.nuget\\packages\\",
-        "outputPath": "\\\\192.168.5.4\\Web\\PI2023\\LogisticHelper\\obj\\",
+        "outputPath": "N:\\Programowanie\\Inzynierka\\PI2023\\mniekyh.github.io\\LogisticHelper\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "P:\\Visual\\Shared\\NuGetPackages"
@@ -43,6 +43,44 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0-preview.4.22229.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.0-preview.4.22229.2, )"
+            },
+            "Microsoft.OData.Edm": {
+              "target": "Package",
+              "version": "[7.11.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.15.1, )"
+            },
+            "System.ServiceModel.Duplex": {
+              "target": "Package",
+              "version": "[4.8.*, )"
+            },
+            "System.ServiceModel.Http": {
+              "target": "Package",
+              "version": "[4.8.*, )"
+            },
+            "System.ServiceModel.NetTcp": {
+              "target": "Package",
+              "version": "[4.8.*, )"
+            },
+            "System.ServiceModel.Security": {
+              "target": "Package",
+              "version": "[4.8.*, )"
+            },
+            "mongocsharpdriver": {
+              "target": "Package",
+              "version": "[2.15.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
