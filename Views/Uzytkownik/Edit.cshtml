@@ -1,0 +1,55 @@
+﻿
+@model Uzytkownik
+@{
+    ViewData["Title"] = "Delete";
+}
+
+
+
+<form method = "post">
+    <div class = "border p-3 mt-4">
+        <div class = "row pb-2">
+            <h1 class = "text-primary">Delete Uzytkownik</h1>
+            <hr />
+        </div>
+
+
+
+<div class = "mb-3">
+            <label asp-for="NAZWISKO">Nazwisko</label>
+            <input asp-for = "NAZWISKO" class = "form-control"/>
+            <span asp-validation-for="NAZWISKO" class= "text-danger"></span>
+        </div>
+             <div class = "mb-3">
+            <label asp-for="IMIE">Imie</label>
+            <input asp-for = "IMIE" class = "form-control"/>
+            <span asp-validation-for="IMIE" class= "text-danger"></span>
+
+            <label asp-for="DATA_URODZENIA">Data Urodzenia</label>
+            <input asp-for = "DATA_URODZENIA" type = "date" class = "form-control"/>
+            <span asp-validation-for="DATA_URODZENIA" class= "text-danger"></span>
+
+            <label asp-for="MAIL">Mail</label>
+            <input asp-for = "MAIL" class = "form-control"/>
+            <span asp-validation-for="MAIL" class= "text-danger"></span>
+
+             <label asp-for="TELEFON">Telefon</label>
+            <input asp-for = "TELEFON" class = "form-control"/>
+            <span asp-validation-for="TELEFON" class= "text-danger"></span>
+
+            <button type= "submit" class = "btn btn-primary" style = "width:150px">Delete</button>
+            <a asp-for="Uzytkownik" asp-action="Index" class = "btn btn-secondary" style ="width:150px">Back to List</a>
+        </div>
+    </div>
+
+</form>
+
+@*
+Validation Client side*@
+@section Scripts
+{
+    @{
+        <partial name = "_ValidationScriptsPartial"/>
+    }
+
+}

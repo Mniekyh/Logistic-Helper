@@ -59,45 +59,71 @@ namespace LogisticHelper.Controllers
         }
 
         // GET: UzytkownikController/Edit/5
-        public ActionResult Edit(int id)
+        public IActionResult Edit(int? id)
         {
-            return View();
+            if (id == null || id == 0)
+            {
+                return NotFound();
+            }
+
+            var getUzytkownik = _unitOfWork.Uzytkownik.GetFirstOrDefault(u => u.ID == id);
+
+            if (getUzytkownik == null)
+            {
+                return NotFound();
+            }
+            return View(getUzytkownik);
         }
 
         // POST: UzytkownikController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        public ActionResult Edit(Uzytkownik entity)
         {
-            try
+            if (entity.IMIE == null)
             {
-                return RedirectToAction(nameof(Index));
+                ModelState.AddModelError("NullName", "Name cannot be empty :(");
             }
-            catch
+            if (ModelState.IsValid)
             {
-                return View();
+                _unitOfWork.Uzytkownik.Update(entity);
+                _unitOfWork.Save();
+                TempData["success"] = "Uzytkownik got edited";
+                return RedirectToAction("Index");
             }
+            return View(entity);
+
         }
 
         // GET: UzytkownikController/Delete/5
-        public ActionResult Delete(int id)
+        public ActionResult Delete(int? id)
         {
-            return View();
+            if (id == null || id == 0)
+                return NotFound();
+            var getUzytkownikToDelete = _unitOfWork.Uzytkownik.GetFirstOrDefault(u => u.ID == id);
+
+            if (getUzytkownikToDelete == null)
+                return NotFound();
+
+
+            return View(getUzytkownikToDelete);
         }
 
         // POST: UzytkownikController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
+        public ActionResult Delete(int id)
         {
-            try
+            var obj = _unitOfWork.Uzytkownik.GetFirstOrDefault(u => u.ID == id); ;
+            if (obj == null)
             {
-                return RedirectToAction(nameof(Index));
+                return NotFound();
             }
-            catch
-            {
-                return View();
-            }
+            _unitOfWork.Uzytkownik.Remove(obj);
+            _unitOfWork.Save();
+            TempData["success"] = "Uzytkownik deleted successfully";
+
+            return RedirectToAction("Index");
         }
     }
 }
