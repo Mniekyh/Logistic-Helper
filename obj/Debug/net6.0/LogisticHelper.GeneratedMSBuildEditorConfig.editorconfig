@@ -8,61 +8,61 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LogisticHelper
 build_property.RootNamespace = LogisticHelper
-build_property.ProjectDir = N:\Programowanie\Inzynierka\PI2023\mniekyh.github.io\LogisticHelper\
+build_property.ProjectDir = N:\Programowanie\Inzynierka\PI2023\Logistic-Helper-main\Logistic-Helper\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = N:\Programowanie\Inzynierka\PI2023\mniekyh.github.io\LogisticHelper
+build_property.MSBuildProjectDirectory = N:\Programowanie\Inzynierka\PI2023\Logistic-Helper-main\Logistic-Helper
 build_property._RazorSourceGeneratorDebug = 
 
-[N:/Programowanie/Inzynierka/PI2023/mniekyh.github.io/LogisticHelper/Views/Home/Index.cshtml]
+[N:/Programowanie/Inzynierka/PI2023/Logistic-Helper-main/Logistic-Helper/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[N:/Programowanie/Inzynierka/PI2023/mniekyh.github.io/LogisticHelper/Views/Home/Privacy.cshtml]
+[N:/Programowanie/Inzynierka/PI2023/Logistic-Helper-main/Logistic-Helper/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[N:/Programowanie/Inzynierka/PI2023/mniekyh.github.io/LogisticHelper/Views/Shared/Error.cshtml]
+[N:/Programowanie/Inzynierka/PI2023/Logistic-Helper-main/Logistic-Helper/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[N:/Programowanie/Inzynierka/PI2023/mniekyh.github.io/LogisticHelper/Views/Shared/_ValidationScriptsPartial.cshtml]
+[N:/Programowanie/Inzynierka/PI2023/Logistic-Helper-main/Logistic-Helper/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[N:/Programowanie/Inzynierka/PI2023/mniekyh.github.io/LogisticHelper/Views/Teryt/Index.cshtml]
+[N:/Programowanie/Inzynierka/PI2023/Logistic-Helper-main/Logistic-Helper/Views/Teryt/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVyeXRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[N:/Programowanie/Inzynierka/PI2023/mniekyh.github.io/LogisticHelper/Views/Teryt/Wrong.cshtml]
+[N:/Programowanie/Inzynierka/PI2023/Logistic-Helper-main/Logistic-Helper/Views/Teryt/Wrong.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVyeXRcV3JvbmcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[N:/Programowanie/Inzynierka/PI2023/mniekyh.github.io/LogisticHelper/Views/Uzytkownik/Create.cshtml]
+[N:/Programowanie/Inzynierka/PI2023/Logistic-Helper-main/Logistic-Helper/Views/Uzytkownik/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXp5dGtvd25pa1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[N:/Programowanie/Inzynierka/PI2023/mniekyh.github.io/LogisticHelper/Views/Uzytkownik/Delete.cshtml]
+[N:/Programowanie/Inzynierka/PI2023/Logistic-Helper-main/Logistic-Helper/Views/Uzytkownik/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXp5dGtvd25pa1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[N:/Programowanie/Inzynierka/PI2023/mniekyh.github.io/LogisticHelper/Views/Uzytkownik/Edit.cshtml]
+[N:/Programowanie/Inzynierka/PI2023/Logistic-Helper-main/Logistic-Helper/Views/Uzytkownik/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXp5dGtvd25pa1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[N:/Programowanie/Inzynierka/PI2023/mniekyh.github.io/LogisticHelper/Views/Uzytkownik/Index.cshtml]
+[N:/Programowanie/Inzynierka/PI2023/Logistic-Helper-main/Logistic-Helper/Views/Uzytkownik/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXp5dGtvd25pa1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[N:/Programowanie/Inzynierka/PI2023/mniekyh.github.io/LogisticHelper/Views/_ViewImports.cshtml]
+[N:/Programowanie/Inzynierka/PI2023/Logistic-Helper-main/Logistic-Helper/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[N:/Programowanie/Inzynierka/PI2023/mniekyh.github.io/LogisticHelper/Views/_ViewStart.cshtml]
+[N:/Programowanie/Inzynierka/PI2023/Logistic-Helper-main/Logistic-Helper/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[N:/Programowanie/Inzynierka/PI2023/mniekyh.github.io/LogisticHelper/Views/Shared/_Layout.cshtml]
+[N:/Programowanie/Inzynierka/PI2023/Logistic-Helper-main/Logistic-Helper/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-1hdbajuifn

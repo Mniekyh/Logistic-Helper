@@ -10,7 +10,22 @@
       "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
       "DisplayName": "Różne pliki",
       "ColorIndex": -1
+    },
+    "45de63a5-0f73-4fa2-a7d3-78d3cd55b180": {
+      "ProjectGuid": "45de63a5-0f73-4fa2-a7d3-78d3cd55b180",
+      "DisplayName": "LogisticHelper.DataAccess",
+      "ColorIndex": 1
+    },
+    "6784eafb-548c-4374-a2ca-c5c9e4cc1774": {
+      "ProjectGuid": "6784eafb-548c-4374-a2ca-c5c9e4cc1774",
+      "DisplayName": "LogisticHelper.Models",
+      "ColorIndex": 2
+    },
+    "f22db838-6222-4b0b-8734-55abf5e5fce1": {
+      "ProjectGuid": "f22db838-6222-4b0b-8734-55abf5e5fce1",
+      "DisplayName": "LogisticHelper.Utility",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 4
 }

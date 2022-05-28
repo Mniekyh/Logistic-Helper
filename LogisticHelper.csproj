@@ -18,4 +18,9 @@
     <PackageReference Include="System.ServiceModel.Security" Version="4.8.*" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\LogisticHelper.DataAccess\LogisticHelper.DataAccess.csproj" />
+    <ProjectReference Include="..\LogisticHelper.Models\LogisticHelper.Models.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1096,6 +1096,30 @@
             "rid": "win"
           }
         }
+      },
+      "LogisticHelper.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "LogisticHelper.Models": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.0-preview.4.22229.2"
+        },
+        "compile": {
+          "bin/placeholder/LogisticHelper.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LogisticHelper.DataAccess.dll": {}
+        }
+      },
+      "LogisticHelper.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/LogisticHelper.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LogisticHelper.Models.dll": {}
+        }
       }
     }
   },
@@ -3755,10 +3779,22 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "LogisticHelper.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../LogisticHelper.DataAccess/LogisticHelper.DataAccess.csproj",
+      "msbuildProject": "../LogisticHelper.DataAccess/LogisticHelper.DataAccess.csproj"
+    },
+    "LogisticHelper.Models/1.0.0": {
+      "type": "project",
+      "path": "../LogisticHelper.Models/LogisticHelper.Models.csproj",
+      "msbuildProject": "../LogisticHelper.Models/LogisticHelper.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "LogisticHelper.DataAccess >= 1.0.0",
+      "LogisticHelper.Models >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.0-preview.4.22229.2",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.0-preview.4.22229.2",
       "Microsoft.OData.Edm >= 7.11.0",
@@ -3777,11 +3813,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "N:\\Programowanie\\Inzynierka\\PI2023\\mniekyh.github.io\\LogisticHelper\\LogisticHelper.csproj",
+      "projectUniqueName": "N:\\Programowanie\\Inzynierka\\PI2023\\Logistic-Helper-main\\Logistic-Helper\\LogisticHelper.csproj",
       "projectName": "LogisticHelper",
-      "projectPath": "N:\\Programowanie\\Inzynierka\\PI2023\\mniekyh.github.io\\LogisticHelper\\LogisticHelper.csproj",
+      "projectPath": "N:\\Programowanie\\Inzynierka\\PI2023\\Logistic-Helper-main\\Logistic-Helper\\LogisticHelper.csproj",
       "packagesPath": "C:\\Users\\MK\\.nuget\\packages\\",
-      "outputPath": "N:\\Programowanie\\Inzynierka\\PI2023\\mniekyh.github.io\\LogisticHelper\\obj\\",
+      "outputPath": "N:\\Programowanie\\Inzynierka\\PI2023\\Logistic-Helper-main\\Logistic-Helper\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "P:\\Visual\\Shared\\NuGetPackages"
@@ -3801,7 +3837,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "N:\\Programowanie\\Inzynierka\\PI2023\\Logistic-Helper-main\\LogisticHelper.DataAccess\\LogisticHelper.DataAccess.csproj": {
+              "projectPath": "N:\\Programowanie\\Inzynierka\\PI2023\\Logistic-Helper-main\\LogisticHelper.DataAccess\\LogisticHelper.DataAccess.csproj"
+            },
+            "N:\\Programowanie\\Inzynierka\\PI2023\\Logistic-Helper-main\\LogisticHelper.Models\\LogisticHelper.Models.csproj": {
+              "projectPath": "N:\\Programowanie\\Inzynierka\\PI2023\\Logistic-Helper-main\\LogisticHelper.Models\\LogisticHelper.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

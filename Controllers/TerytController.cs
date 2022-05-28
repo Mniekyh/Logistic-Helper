@@ -14,9 +14,15 @@ namespace LogisticHelper.Controllers
 
             client.ClientCredentials.UserName.UserName = "Mariusz.Sobota";
             client.ClientCredentials.UserName.Password = "so6QT8ahG";
+            client.OpenAsync().Wait();
+
+
             var result = client.CzyZalogowanyAsync();
 
-           var cos =  client.PobierzListeMiejscowosciWGminieAsync( "slaskie", "gliwicki","gieraltowice",DateTime.Now);
+            /*result.Status*/
+
+
+           var cos =  client.PobierzListeMiejscowosciWGminieAsync( "śląskie", "gliwicki","gierałtowice",DateTime.Now).Result;
                 return View(cos);
 
 
