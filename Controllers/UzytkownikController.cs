@@ -93,6 +93,7 @@ namespace LogisticHelper.Controllers
             }
             return View(entity);
 
+
         }
 
         // GET: UzytkownikController/Delete/5
