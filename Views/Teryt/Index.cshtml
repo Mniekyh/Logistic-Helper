@@ -1,4 +1,9 @@
 ﻿@{
     ViewData["Title"] = "Teryt";
 }
-<p>@Model[1].Gmina</p>
+@foreach(var voivode in Model)
+{
+    
+    <p>@voivode.NAZWA</p>
+    
+}

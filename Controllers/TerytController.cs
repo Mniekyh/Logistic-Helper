@@ -22,8 +22,10 @@ namespace LogisticHelper.Controllers
             /*result.Status*/
 
 
-           var cos =  client.PobierzListeMiejscowosciWGminieAsync( "śląskie", "gliwicki","gierałtowice",DateTime.Now).Result;
-                return View(cos);
+           //var cos =  client.PobierzListeMiejscowosciWGminieAsync( "śląskie", "gliwicki","gierałtowice",DateTime.Now).Result;
+           var wojewodztwa = client.PobierzListeWojewodztwAsync(DateTime.Now).Result;
+            
+                return View(wojewodztwa);
 
 
 
